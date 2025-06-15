@@ -1,0 +1,6 @@
+auto_seducer = {
+    icon = "heart"
+    random = no
+    cost = -1
+    desc = auto_seducer_desc
+}

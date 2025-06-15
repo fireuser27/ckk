@@ -1,0 +1,12 @@
+auto_seduce_activate = {
+    major = yes
+    ai_potential = { always = no }
+    potential = {
+        is_player = yes
+        NOT = { has_trait = auto_seducer }
+    }
+    effect = {
+        add_trait = auto_seducer
+    }
+    desc = auto_seduce_activate_decision_desc
+}

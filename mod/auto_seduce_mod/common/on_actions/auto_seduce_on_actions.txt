@@ -1,0 +1,10 @@
+on_monthly_pulse = {
+    effect = {
+        every_player_character = {
+            if = {
+                limit = { has_trait = auto_seducer }
+                send_character_event = { id = auto_seduce.1 }
+            }
+        }
+    }
+}

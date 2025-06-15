@@ -1,0 +1,29 @@
+namespace = auto_seduce
+
+character_event = {
+    id = auto_seduce.1
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = { has_trait = auto_seducer }
+    immediate = {
+        repeat_effect = {
+            times = 10
+            effect = {
+                random_courtier = {
+                    limit = {
+                        is_female = yes
+                        is_adult = yes
+                        OR = {
+                            has_trait = beautiful
+                            has_trait = comely
+                            has_trait = intelligent
+                            has_trait = quick
+                            has_trait = genius
+                        }
+                    }
+                    add_lover = { who = ROOT no_toast = yes }
+                }
+            }
+        }
+    }
+}
