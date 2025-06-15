@@ -1,0 +1,6 @@
+l_english:
+ auto_seducer:0 "Auto Seducer"
+ auto_seducer_desc:0 "This character automatically seduces women with beneficial traits."
+ auto_seduce_activate:0 "Become Auto Seducer"
+ auto_seduce_activate_desc:0 "Gain incredible seductive powers, automatically seducing women with strong bloodlines."
+ auto_seduce_activate_decision_desc:0 "Enables the Auto Seducer trait for your character."
